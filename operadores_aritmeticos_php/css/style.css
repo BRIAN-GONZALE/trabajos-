@@ -1,0 +1,67 @@
+/* INICIO - Formulario Operaciones Básicas */
+div {
+  display: flex;
+  justify-content:baseline;
+  justify-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.form-container, section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0000001a;
+  margin: 10px;
+}
+
+.form-container {
+  order: 2; /* Esto coloca el formulario a la derecha */
+}
+
+section {
+  order: 1; /* Esto coloca los resultados a la izquierda */
+}
+
+h2, h3 {
+  margin-top: 5px;
+}
+/* FINAL - Formulario Operaciones Básicas */
+/* INICIO - BUSQUEDA EN TABLA */
+#buscador {
+  display: flex;
+  justify-content:right;
+ 
+
+  width: 100%;
+  
+}
+#idBuscador{
+  padding: 10px;
+  width: 15%;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-right: 3%;
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+tr.highlight {
+  background-color: yellow;
+}
+/* FINAL - BUSQUEDA EN TABLA */
